@@ -1,17 +1,14 @@
 class Solution {
     public int countOdds(int low, int high) {
-        int count = 0;
-
-        // Start from the first odd number >= low
-        if (low % 2 == 0) {
-            low++; // make it odd
+        int i,count=0;
+        if(low%2==0){
+            low++;
         }
-
-        // Loop through all odd numbers only
-        for (int i = low; i <= high; i += 2) {
+        for(i=low;i<=high;i+=2){
+            if(i%2!=0){
             count++;
+            } 
         }
-
         return count;
     }
 }
