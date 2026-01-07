@@ -16,3 +16,8 @@ class Solution {
        return false;
     }
 }
+/* Logic:
+   Continuously divide the number by 2, 3, and 5 as long as it is divisible.
+   This removes all allowed prime factors.
+   If the remaining value becomes 1, the number had no other prime factors → Ugly Number.
+   If a value other than 1 remains, it contains other prime factors → Not Ugly.*/
