@@ -17,3 +17,20 @@ class Solution {
         return 0;
     }
 }
+
+/*                             (OR)
+class Solution {
+    public int findClosest(int x, int y, int z) {
+        int stepx = Math.abs(z - x);
+        int stepy = Math.abs(z - y);
+
+        if (stepx < stepy)
+            return 1; 
+        else if (stepy < stepx)
+            return 2; 
+        else
+            return 0; 
+    }
+}
+
+*/
