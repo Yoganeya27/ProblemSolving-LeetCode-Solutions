@@ -14,3 +14,10 @@ class Solution {
         return matches;
     }
 }
+ /*                                (OR)
+ class Solution {
+    public int numberOfMatches(int n) {
+        return n - 1;
+    }
+}
+*/
