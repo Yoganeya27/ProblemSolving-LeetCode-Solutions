@@ -1,8 +1,7 @@
 class Solution {
     public int commonFactors(int a, int b) {
         int i,count=0,limit;
-
-        if (a<b)
+        if (a<b)  //Common factors cannot be greater than the smaller number
         limit=a;
         else
         limit=b;
