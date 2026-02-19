@@ -18,9 +18,9 @@ class Solution {
 }
 
 /* 
-For n = 3:
-presses =  0 → 1
-presses =  1 → 4
-presses =  2 → 7
-presses   ≥3 → 8
+For n = 3:     Output:
+presses =  0  →  1
+presses =  1  →  4
+presses =  2  →  7
+presses   ≥3  →  8
 */
