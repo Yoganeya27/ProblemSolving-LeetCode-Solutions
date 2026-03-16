@@ -1,7 +1,7 @@
 class Solution {
     public int[] plusOne(int[] digits) {
         
-        for(int i = digits.length - 1; i >= 0; i--){
+        for(int i = digits.length - 1; i >= 0; i--){ //When adding 1 to a number, we start from the rightmost digit.
             if (digits[i]<9){
                 digits[i]++;
                 return digits;
