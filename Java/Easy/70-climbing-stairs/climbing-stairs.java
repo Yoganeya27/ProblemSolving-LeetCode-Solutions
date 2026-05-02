@@ -6,6 +6,6 @@ class Solution {
             n1=n2;
             n2=sum;
         }
-        return sum;
+        return n2;
     }
 }
